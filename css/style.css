@@ -1,26 +1,22 @@
 body{
-  background: #fff;
+background: #fff;
 font-family: 'Open Sans', sans-serif;
 margin: 0;
 overflow-x: hidden;
 color: #67757c;
 }
 
-.error-box {
+.body-box {
     height: 100%;
     position: fixed;
     width: 100%;
 }
 
-.error-body {
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+nav.navbar.navbar-inverse {
+  border-radius:0px !important;
 }
 
-.error-body h1 {
+.body h1 {
     font-size: 150px;
     font-weight: 900;
     line-height: 210px;
